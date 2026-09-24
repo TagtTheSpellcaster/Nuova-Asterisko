@@ -173,59 +173,39 @@ h2 {
     font-size: 1.05rem;
 }
 
-/* Sezione Team con box sovrapposto */
+/* Sezione Team (Ripristinata) */
+.team-desc {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+    font-family: var(--font-sans);
+    font-weight: 300;
+    font-size: 1.05rem;
+}
+
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 3rem 2rem;
-    max-width: 800px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 700px;
     margin: 0 auto;
 }
 
 .team-member {
-    position: relative; /* Serve come riferimento per il posizionamento del box */
-    text-align: left;
+    text-align: center;
 }
 
 .team-member img {
     width: 230px;
     height: 230px;
-    border-radius: 15%; /* Il raggio da te impostato per l'arrotondamento */
+    border-radius: 15%;
     object-fit: cover;
-    display: block;
-}
-
-/* Box bianco/grigio sovrapposto in basso */
-.member-info {
-    position: absolute;
-    bottom: -100px; /* Fa sporgere leggermente il box sotto l'immagine */
-    left: 20px;    /* Rientro da sinistra dell'immagine */
-    background-color: #f2f2f2; /* Sfondo chiaro del box */
-    padding: 0.8rem 1.2rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Ombra leggera facoltativa */
-    max-width: 85%;
-}
-
-.member-info h3 {
-    font-family: var(--font-serif);
-    font-weight: 200;
-    font-size: 1.25rem;
-    margin-bottom: 0.2rem;
-    color: var(--text-color);
-    text-align: left;
-}
-
-.member-info p {
-    font-family: var(--font-sans);
-    font-weight: 200;
-    font-size: 0.85rem;
-    color: #555;
-    text-align: left;
+    margin-bottom: 1rem;
 }
 
 .team-member h3 {
     font-family: var(--font-serif);
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1.4rem;
     margin-bottom: 0.25rem;
     color: var(--primary-color);
@@ -233,7 +213,7 @@ h2 {
 
 .team-member p {
     font-family: var(--font-sans);
-    font-weight: 200; /* Futura Light */
+    font-weight: 300;
     font-size: 0.9rem;
     color: #555;
 }
