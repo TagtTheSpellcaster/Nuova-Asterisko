@@ -15,20 +15,20 @@
     --bg-blog: #1b4965;
     --blog-text: #ffffff;
     
-    /* Definizione font richiesti */
-    --font-serif: 'Cormorant Garamond', Georgia, serif; /* Graziato */
-    --font-sans: 'Futura LT W01 Book', 'Futura', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; /* Bastone */
+    /* Definizione font */
+    --font-serif: 'Cormorant Garamond', Georgia, serif; 
+    --font-sans: 'Futura LT W01 Book', 'Futura', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
 }
 
 body {
     font-family: var(--font-sans);
-    font-weight: 300;
+    font-weight: 300; /* Forza il peso leggero (Light) */
     color: var(--text-color);
     line-height: 1.6;
     background-color: #ffffff;
 }
 
-/* Accessibilità - Skip link nascosto correttamente */
+/* Accessibilità */
 .skip-link {
     position: absolute;
     top: -9999px;
@@ -46,7 +46,7 @@ body {
 
 .container {
     width: 90%;
-    max-width: 1100px;
+    /* max-width: 1100px; */
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -92,6 +92,7 @@ body {
     text-decoration: none;
     color: var(--text-color);
     font-family: var(--font-sans);
+    font-weight: 300; /* Futura Light nel menu */
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -138,6 +139,8 @@ h2 {
     color: var(--primary-color);
     text-decoration: none;
     border-radius: 2px;
+    font-family: var(--font-sans);
+    font-weight: 300; /* Futura Light nel pulsante */
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -154,6 +157,8 @@ h2 {
     text-align: center;
     max-width: 800px;
     margin: 0 auto 3rem auto;
+    font-family: var(--font-sans);
+    font-weight: 300;
     font-size: 1.05rem;
 }
 
@@ -186,6 +191,8 @@ h2 {
 }
 
 .team-member p {
+    font-family: var(--font-sans);
+    font-weight: 300; /* Futura Light */
     font-size: 0.9rem;
     color: #555;
 }
@@ -195,6 +202,8 @@ h2 {
     text-align: center;
     max-width: 800px;
     margin: 0 auto 3rem auto;
+    font-family: var(--font-sans);
+    font-weight: 300;
     font-size: 1.05rem;
 }
 
@@ -219,6 +228,8 @@ h2 {
 }
 
 .service-card p {
+    font-family: var(--font-sans);
+    font-weight: 300; /* Futura Light */
     font-size: 0.95rem;
 }
 
@@ -255,12 +266,16 @@ h2 {
 }
 
 .blog-item p {
+    font-family: var(--font-sans);
+    font-weight: 300; /* Futura Light */
     font-size: 0.95rem;
     margin-bottom: 1rem;
     opacity: 0.9;
 }
 
 .blog-meta {
+    font-family: var(--font-sans);
+    font-weight: 300; /* Futura Light */
     font-size: 0.8rem;
     opacity: 0.6;
     letter-spacing: 0.3px;
@@ -274,6 +289,8 @@ h2 {
 .about-section p {
     max-width: 800px;
     margin: 0 auto;
+    font-family: var(--font-sans);
+    font-weight: 300; /* Futura Light */
     font-size: 1.1rem;
     line-height: 1.7;
 }
@@ -283,6 +300,8 @@ h2 {
     background-color: #111;
     color: #ccc;
     padding: 3rem 0 1.5rem 0;
+    font-family: var(--font-sans);
+    font-weight: 300; /* Futura Light */
     font-size: 0.85rem;
 }
 
