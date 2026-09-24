@@ -22,10 +22,15 @@
 
 body {
     font-family: var(--font-sans);
-    font-weight: 200; /* Forza il peso leggero (Light) */
+    font-weight: 200;
     color: var(--text-color);
     line-height: 1.6;
     background-color: #ffffff;
+
+    /* Ottimizzazione rendering font per macOS / iOS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 /* Accessibilità */
