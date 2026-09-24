@@ -173,16 +173,6 @@ h2 {
     font-size: 1.05rem;
 }
 
-/* Sezione Team (Ripristinata) */
-.team-desc {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 3rem auto;
-    font-family: var(--font-sans);
-    font-weight: 200;
-    font-size: 1.05rem;
-}
-
 .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -204,11 +194,12 @@ h2 {
 }
 
 .team-member h3 {
-    font-family: var(--font-serif);
-    font-weight: 200;
+    font-family: var(--font-sans);
+    font-weight: 700;
     font-size: 1.4rem;
     margin-bottom: 0.25rem;
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .team-member p {
