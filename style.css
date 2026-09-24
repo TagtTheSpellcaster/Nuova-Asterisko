@@ -198,7 +198,7 @@ h2 {
 /* Box bianco/grigio sovrapposto in basso */
 .member-info {
     position: absolute;
-    bottom: -15px; /* Fa sporgere leggermente il box sotto l'immagine */
+    bottom: -100px; /* Fa sporgere leggermente il box sotto l'immagine */
     left: 20px;    /* Rientro da sinistra dell'immagine */
     background-color: #f2f2f2; /* Sfondo chiaro del box */
     padding: 0.8rem 1.2rem;
@@ -208,7 +208,7 @@ h2 {
 
 .member-info h3 {
     font-family: var(--font-serif);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 1.25rem;
     margin-bottom: 0.2rem;
     color: var(--text-color);
@@ -217,7 +217,7 @@ h2 {
 
 .member-info p {
     font-family: var(--font-sans);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 0.85rem;
     color: #555;
     text-align: left;
