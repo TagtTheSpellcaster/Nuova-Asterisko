@@ -186,9 +186,9 @@ h2 {
 }
 
 .team-member img {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    border-radius: 15%;
     object-fit: cover;
     margin-bottom: 1rem;
 }
