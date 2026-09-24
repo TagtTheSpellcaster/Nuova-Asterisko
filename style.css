@@ -31,10 +31,12 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-/* Titoli in peso 700 */
+/* Titoli in peso 700 e MAIUSCOLO */
 h2, h3, .team-member h3, .service-card h3, .blog-item h3 {
     font-family: var(--font-sans);
     font-weight: 700;
+    text-transform: uppercase; /* Converte il testo in MAIUSCOLO */
+    letter-spacing: 0.5px;      /* Dà respiro alle lettere maiuscole */
 }
 
 /* Accessibilità */
