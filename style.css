@@ -22,7 +22,7 @@
 
 body {
     font-family: var(--font-sans);
-    font-weight: 300; /* Forza il peso leggero (Light) */
+    font-weight: 200; /* Forza il peso leggero (Light) */
     color: var(--text-color);
     line-height: 1.6;
     background-color: #ffffff;
@@ -92,7 +92,7 @@ body {
     text-decoration: none;
     color: var(--text-color);
     font-family: var(--font-sans);
-    font-weight: 300; /* Futura Light nel menu */
+    font-weight: 200; /* Futura Light nel menu */
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -110,7 +110,7 @@ section {
 
 h2 {
     font-family: var(--font-serif);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 1.5rem;
@@ -125,7 +125,7 @@ h2 {
 
 .intro-lead {
     font-family: var(--font-serif);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 1.35rem;
     max-width: 800px;
     margin: 0 auto 2rem auto;
@@ -140,7 +140,7 @@ h2 {
     text-decoration: none;
     border-radius: 2px;
     font-family: var(--font-sans);
-    font-weight: 300; /* Futura Light nel pulsante */
+    font-weight: 200; /* Futura Light nel pulsante */
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -158,7 +158,7 @@ h2 {
     max-width: 800px;
     margin: 0 auto 3rem auto;
     font-family: var(--font-sans);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 1.05rem;
 }
 
@@ -184,7 +184,7 @@ h2 {
 
 .team-member h3 {
     font-family: var(--font-serif);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 1.4rem;
     margin-bottom: 0.25rem;
     color: var(--primary-color);
@@ -192,7 +192,7 @@ h2 {
 
 .team-member p {
     font-family: var(--font-sans);
-    font-weight: 300; /* Futura Light */
+    font-weight: 200; /* Futura Light */
     font-size: 0.9rem;
     color: #555;
 }
@@ -203,7 +203,7 @@ h2 {
     max-width: 800px;
     margin: 0 auto 3rem auto;
     font-family: var(--font-sans);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 1.05rem;
 }
 
@@ -221,7 +221,7 @@ h2 {
 
 .service-card h3 {
     font-family: var(--font-serif);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     color: var(--primary-color);
@@ -229,7 +229,7 @@ h2 {
 
 .service-card p {
     font-family: var(--font-sans);
-    font-weight: 300; /* Futura Light */
+    font-weight: 200; /* Futura Light */
     font-size: 0.95rem;
 }
 
@@ -260,14 +260,14 @@ h2 {
 
 .blog-item h3 {
     font-family: var(--font-serif);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
 }
 
 .blog-item p {
     font-family: var(--font-sans);
-    font-weight: 300; /* Futura Light */
+    font-weight: 200; /* Futura Light */
     font-size: 0.95rem;
     margin-bottom: 1rem;
     opacity: 0.9;
@@ -275,7 +275,7 @@ h2 {
 
 .blog-meta {
     font-family: var(--font-sans);
-    font-weight: 300; /* Futura Light */
+    font-weight: 200; /* Futura Light */
     font-size: 0.8rem;
     opacity: 0.6;
     letter-spacing: 0.3px;
@@ -290,7 +290,7 @@ h2 {
     max-width: 800px;
     margin: 0 auto;
     font-family: var(--font-sans);
-    font-weight: 300; /* Futura Light */
+    font-weight: 200; /* Futura Light */
     font-size: 1.1rem;
     line-height: 1.7;
 }
@@ -301,7 +301,7 @@ h2 {
     color: #ccc;
     padding: 3rem 0 1.5rem 0;
     font-family: var(--font-sans);
-    font-weight: 300; /* Futura Light */
+    font-weight: 200; /* Futura Light */
     font-size: 0.85rem;
 }
 
