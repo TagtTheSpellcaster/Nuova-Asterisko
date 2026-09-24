@@ -46,7 +46,7 @@ body {
 
 .container {
     width: 90%;
-    /* max-width: 1100px; */
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -69,8 +69,8 @@ body {
 
 .logo-container a {
     display: block;
-    width: 80%;
-    /* max-width: 600px; */
+    width: 60%;
+    max-width: 990px; /* Non supera il 90% della larghezza del menu principale (1100px * 0.9) */
     margin: 0 auto;
 }
 
