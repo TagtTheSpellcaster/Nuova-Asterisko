@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-/* Importazione Saira via CSS (in alternativa al tag HTML) */
+/* Importazione Saira via CSS */
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@200;700&display=swap');
 
 :root {
@@ -123,7 +123,7 @@ section {
 
 h2 {
     font-family: var(--font-sans);
-    font-weight: 700; /* Futura Bold per i titoli di sezione */
+    font-weight: 700; /* Saira Bold */
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 1.5rem;
@@ -197,7 +197,7 @@ h2 {
 
 .team-member h3 {
     font-family: var(--font-sans);
-    font-weight: 700; /* Futura Bold */
+    font-weight: 700; /* Saira Bold */
     font-size: 1.4rem;
     margin-bottom: 0.25rem;
     color: var(--primary-color);
@@ -234,7 +234,7 @@ h2 {
 
 .service-card h3 {
     font-family: var(--font-sans);
-    font-weight: 700; /* Futura Bold */
+    font-weight: 700; /* Saira Bold */
     font-size: 1.5rem;
     margin-bottom: 1rem;
     color: var(--primary-color);
@@ -273,7 +273,7 @@ h2 {
 
 .blog-item h3 {
     font-family: var(--font-sans);
-    font-weight: 700; /* Futura Bold */
+    font-weight: 700; /* Saira Bold */
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
 }
