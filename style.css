@@ -179,7 +179,7 @@ h2 {
     max-width: 800px;
     margin: 0 auto 3rem auto;
     font-family: var(--font-sans);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 1.05rem;
 }
 
@@ -198,14 +198,14 @@ h2 {
 .team-member img {
     width: 230px;
     height: 230px;
-    border-radius: 15%;
+    border-radius: 5%;
     object-fit: cover;
     margin-bottom: 1rem;
 }
 
 .team-member h3 {
     font-family: var(--font-serif);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 1.4rem;
     margin-bottom: 0.25rem;
     color: var(--primary-color);
@@ -213,7 +213,7 @@ h2 {
 
 .team-member p {
     font-family: var(--font-sans);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 0.9rem;
     color: #555;
 }
