@@ -231,7 +231,7 @@ h2 {
 .service-card {
     background: var(--bg-light);
     padding: 2.5rem 2rem;
-    border-radius: 30%; /* Arrotondamento schede */
+    border-radius: 30px; /* Arrotondamento schede */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06); /* Leggera ombreggiatura */
     display: flex;
     flex-direction: column;
