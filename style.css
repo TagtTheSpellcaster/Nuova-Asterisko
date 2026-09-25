@@ -374,3 +374,57 @@ h2 {
     flex-direction: column;
     gap: 0.4rem;
 }
+
+/* Sezione Portfolio */
+.portfolio-intro {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 3rem auto;
+    font-family: var(--font-sans);
+    font-weight: 200;
+    font-size: 1.05rem;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonne uguali come nella schermata */
+    gap: 2.5rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 4; /* Mantiene proporzione costante tra le copertine */
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* Ombra leggera elegante per le copertine */
+}
+
+/* Effetto hover opzionale al passaggio del mouse */
+.portfolio-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Adattamento responsive per cellulari e tablet */
+@media (max-width: 768px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 colonne su tablet */
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr; /* 1 colonna singola su smartphone */
+    }
+}
